@@ -44,10 +44,30 @@ var fun = ()=> console.log("testing arrow func without brackets")
 //arrow func that returns a string is same as a normal func returning a string:
 var arrow = ()=> "arrow return";
 
-arrow();
+//arrow();
 
 function regularFunc(){
     return "regular func return";
 }
 
-regularFunc();
+//regularFunc();
+
+let longArrowFunc = ()=>{
+    let a = 1;
+    let b = 2;
+    return a + b;
+}
+
+let longArrowFuncWithArgs = (a,b)=>{
+    return a+b;
+}
+
+//console.log(longArrowFunc());
+//console.log(longArrowFuncWithArgs(2,5));
+
+//one arug means no need for "()" :
+
+let oneArgArrow = a => a+5;
+
+console.log(oneArgArrow(4));
+
