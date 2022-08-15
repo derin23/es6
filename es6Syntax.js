@@ -106,3 +106,5 @@ let objectEx = {
 };
 
 objectEx["greet"]();
+
+//testing bash script file
