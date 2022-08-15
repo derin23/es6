@@ -75,6 +75,7 @@ let oneArgArrow = a => a+5;
 
 //console.log(oneArgArrow(4));
 
+//function default parameters
 function isEqualTo(number, compare){
     return number == compare;
 }
@@ -87,5 +88,17 @@ function isEqualTo1(number = 11, compare){
     return number == compare;
 }
 
-console.log(isEqualTo1(10,10));
+//console.log(isEqualTo1(10,10));
 
+//object literal new additions 
+//---------------------------------
+
+let myName = "Derin";
+let myAge = 25;
+
+let objectEx = {
+    myName : "Joseph",
+    myAge
+};
+
+console.log(objectEx);
