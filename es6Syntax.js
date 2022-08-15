@@ -107,4 +107,4 @@ let objectEx = {
 
 objectEx["greet"]();
 
-//another test bash script file
+//another test bash script file 1
