@@ -97,8 +97,12 @@ let myName = "Derin";
 let myAge = 25;
 
 let objectEx = {
-    myName : "Joseph",
-    myAge
+    "myName" : "Joseph",
+    myAge,
+    //es6 lets you create method names that are string and you can call them by usine obj["function"()]
+    "greet"(){
+        console.log(this.myName + ", " + this.myAge);
+    }
 };
 
-console.log(objectEx);
+objectEx["greet"]();
