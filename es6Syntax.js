@@ -31,4 +31,18 @@ function doSome(){
 
 let num;
 doSome();
-console.log(num);
+//console.log(num);
+
+function isEqualTo(number, compare){
+    return number == compare;
+}
+
+//console.log(isEqualTo(10,10));
+
+function isEqualTo1(number = 11, compare){
+    console.log(number);
+    console.log(compare);
+    return number == compare;
+}
+
+console.log(isEqualTo1(10,10));
