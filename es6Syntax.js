@@ -106,4 +106,4 @@ let objectEx = {
 };
 
 objectEx["greet"]();
-//test
+
