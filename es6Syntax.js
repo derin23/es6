@@ -105,6 +105,23 @@ let objectEx = {
     }
 };
 
-objectEx["greet"]();
+//objectEx["greet"]();
 
 
+// rest operator : ...argument used in our fucntion, not the function call
+
+let numbers = [1,2,3,4,5];
+
+function sumUp(...toAdd){
+    let result = 0;
+    for(let i = 0; i < toAdd.length; i++){
+        result += toAdd[i];
+    } 
+    return result
+}
+
+//console.log(sumUp(100,10,20));
+
+//spread operator : used in function call
+let numbers1 = [1,2,3,4,5];
+console.log(Math.max(...numbers1.length));
