@@ -107,3 +107,4 @@ let objectEx = {
 
 objectEx["greet"]();
 
+
