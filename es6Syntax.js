@@ -108,7 +108,7 @@ let objectEx = {
 //objectEx["greet"]();
 
 
-// rest operator : ...argument used in our fucntion, not the function call
+// rest operator : ...argument used in our fucntion, not the function calls
 
 let numbers = [1,2,3,4,5];
 
@@ -124,4 +124,4 @@ function sumUp(...toAdd){
 
 //spread operator : used in function call
 let numbers1 = [1,2,3,4,5];
-console.log(Math.max(...numbers1.length));
+console.log(Math.max(...numbers1));
