@@ -12,11 +12,3 @@ const result = generatedFunc(3);
 
 console.log(result);
 
-
-// function testFunc(num){
-//     return 1;
-// }
-
-// let test = testFunc();
-
-// console.log(test(1))
