@@ -57,3 +57,21 @@ myNewFunction();
 const anotherFunction = outer();
 anotherFunction();
 anotherFunction();
+
+// Challenge 1
+// Create a function createFunction that creates and returns a function. 
+// When that created function is called, it should print "hello". 
+// When you think you completed createFunction, un-comment out those lines in the code and run it to see if it works.
+
+
+
+function createFunction1(){
+   return function1();  
+}
+
+function function1(){
+    console.log("hello");
+}
+
+
+createFunction1();
