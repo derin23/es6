@@ -1,0 +1,17 @@
+Fundamentals of JS:
+
+Classes
+Closures
+
+
+Know why things are done.
+How do things work behind the scene.
+What is a paradigm?
+Build your own projects.
+
+Derin:
+Chad CN
+Devsignup
+Zoom info free tier, for finding emails
+Volga:
+A/B testing, feature flags, elevator pitch
